@@ -13,6 +13,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<RegistrationForm />} />
         <Route path="/dashboard" element={<SchoolDrivingHome />} />
+        {/* <Route path="/dashboard" element={<SchoolDrivingHome />} /> */}
       </Routes>
     </Router>
   );
